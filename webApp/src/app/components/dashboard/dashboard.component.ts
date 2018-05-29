@@ -214,6 +214,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
             console.log('this.currentBlockNumber if>>>>>>>>>', this.currentBlockNumber);
             this.getNodeInfo();
             this.getNodeList();
+            this.getNodeLatency();
           }
           this.latestTimeElapsed = this.latestBlockData.TimeElapsed;
           // console.log("latestTimeElapsed", this.latestBlockData);
